@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7CB7C0CA1AD37CBE006D8E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7C0C91AD37CBE006D8E5F /* AppDelegate.swift */; };
-		7CB7C0CC1AD37CBE006D8E5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7C0CB1AD37CBE006D8E5F /* ViewController.swift */; };
+		7CB7C0CC1AD37CBE006D8E5F /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7C0CB1AD37CBE006D8E5F /* PsychologistViewController.swift */; };
 		7CB7C0CF1AD37CBE006D8E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7C0CD1AD37CBE006D8E5F /* Main.storyboard */; };
 		7CB7C0D11AD37CBE006D8E5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7C0D01AD37CBE006D8E5F /* Images.xcassets */; };
 		7CB7C0D41AD37CBE006D8E5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7C0D21AD37CBE006D8E5F /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		7CB7C0C41AD37CBE006D8E5F /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB7C0C81AD37CBE006D8E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CB7C0C91AD37CBE006D8E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CB7C0CB1AD37CBE006D8E5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CB7C0CB1AD37CBE006D8E5F /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		7CB7C0CE1AD37CBE006D8E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CB7C0D01AD37CBE006D8E5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CB7C0D31AD37CBE006D8E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,11 +77,8 @@
 		7CB7C0C61AD37CBE006D8E5F /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
-				7CB7C0C91AD37CBE006D8E5F /* AppDelegate.swift */,
-				7CB7C0CB1AD37CBE006D8E5F /* ViewController.swift */,
+				7CB7C0CB1AD37CBE006D8E5F /* PsychologistViewController.swift */,
 				7CB7C0CD1AD37CBE006D8E5F /* Main.storyboard */,
-				7CB7C0D01AD37CBE006D8E5F /* Images.xcassets */,
-				7CB7C0D21AD37CBE006D8E5F /* LaunchScreen.xib */,
 				7CB7C0C71AD37CBE006D8E5F /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -90,6 +87,9 @@
 		7CB7C0C71AD37CBE006D8E5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7CB7C0D01AD37CBE006D8E5F /* Images.xcassets */,
+				7CB7C0C91AD37CBE006D8E5F /* AppDelegate.swift */,
+				7CB7C0D21AD37CBE006D8E5F /* LaunchScreen.xib */,
 				7CB7C0C81AD37CBE006D8E5F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB7C0CC1AD37CBE006D8E5F /* ViewController.swift in Sources */,
+				7CB7C0CC1AD37CBE006D8E5F /* PsychologistViewController.swift in Sources */,
 				7CB7C0CA1AD37CBE006D8E5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
